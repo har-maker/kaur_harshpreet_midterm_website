@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+#main{
+  width: 100%;
+  height: 100vh;
+}
+
+nav{
+  width: 100%;
+  height:80px;
+  background-color: #000; 
+  line-height: 80px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li:hover{
+  background-color: #f39d1a;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+}
+
+#images
+div {
+  margin-left: 100px;
+  width: 400px;
+  height: 600px;
+}
+.h1{
+  font-size: 20px;
+  margin-left: 400px;
+  width: 400px;
+  font-size: 25px;
+  font-family: 'Lemonada', cursive;
+  font-family: 'Odibee Sans', cursive;
+}
+.h2{
+  font-size: 20px;
+  margin-left:900px;
+  width: 300px;
+  font-size: 25px;
+  font-family: 'Lemonada', cursive;
+  font-family: 'Odibee Sans', cursive;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+}
+
+#text
+div{
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+}
+.p1{
+  width: 400px;
+  font-size: 20px;
+  margin-left: 120px;
+  font-family: 'Lemonada', cursive;
+}
+
+.p2{
+  width: 400px;
+  font-size: 20px;
+  margin-left: 120px;
+  font-family: 'Lemonada', cursive;
+}
