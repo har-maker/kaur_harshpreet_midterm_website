@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COLLECTIVE ARTS</title>  
+  <link rel="stylesheet" href="css/contactus.css">  
+</head>
+<body>
+    <style> 
+div {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+</style>
+</head>
+<body>
+  <div id="main">
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="beers.html">BEERS</a></li>
+        <li><a href="spirit.html">SPIRIT</a></li>
+        <li class="selected"><a href="#">CONTACT US</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="mainContact"> <!--start mainGallery-->
+
+        	<section id="contactArea"><!--start contactArea-->
+                    <img src="images/pic2.jpg" width="500" height="700" alt="main_pic">
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="NAME">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="NAME">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" required id="email" size="30" placeholder="Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+        	</section><!--end contactArea-->  
+            
+            <section id="mapArea"><!--start mapArea-->
+              <form id="contactForm" action="form.php" method="post">
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (will not be published)</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">Phone: (required)</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+            	<h3>Visit Us</h3>
+                <ul>
+                	<li>Akumal Riviera Maya, </li>
+					<li>Quintana Roo; México </li>
+					<li>Phone: 1-800-GO-SNORKEL</li>
+					<li>Fax: 1-800-MO-SNORKEL</li>
+                </ul>    
+            </section><!--end mapArea-->      
+        </section><!--end mainContact-->
+    </main>
+    <section class="resources">
+        <h2 class="hidden">Resources</h2>
+      RETURN POLICY<BR>TERMS CONDITIONS<BR>PRIVATE POLICY<BR>CONTACT US<BR>  
+        <div id="main">
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="beers.html">BEERS</a></li>
+        <li><a href="spirit.html">SPIRIT</a></li>
+        <li class="selected"><a href="#">CONTACT US</a></li>
+      </ul>
+    </nav> 
+
+    </footer>
+  </div>
+</body>
+</html>
